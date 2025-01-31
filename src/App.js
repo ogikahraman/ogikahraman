@@ -77,6 +77,7 @@ class App extends Component {
     });
   }
 
+
   render() {
     return (
       <div>
@@ -86,6 +87,12 @@ class App extends Component {
         >
           <span className="number" style={{ cursor: "pointer", marginLeft: "10px" }} onClick={() => { window.location.href = "mailto:ogi.kahraman@hotmail.com" }}
           >ogi.kahraman@hotmail.com</span>
+          <i
+            className="number fa fa-file"
+            style={{ cursor: "pointer" }}
+            onClick={() => window.open("/Ogulcan_Kahraman_CV.pdf", "_blank")}
+          ><span style={{ marginLeft: "5px" }}>CV</span>
+          </i>
           <div className="text-right" style={{ display: "flex", alignItems: "center" }}>
             <div
               onClick={() =>
