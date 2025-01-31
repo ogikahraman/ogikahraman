@@ -1,0 +1,165 @@
+{
+  "basic_info": {
+    "description_header": "Hi",
+    "description1": "I’m Ogulcan Kahraman, a Computer Engineering graduate from Ege University. With my passion for technology and analytical mindset, I’ve developed myself in various areas. I’ve had the opportunity to work with numerous technologies such as React, Java, Python, Flutter, and SQL, which I actively use in my projects.",
+    "description2": "Throughout my career, I’ve gained experience in fields like mobile game development, software engineering, and automation solutions. During my time at Yapı Kredi Technology, I completed projects using CRM systems and UiPath, optimized processes, and gained significant experience in team management. Currently, as the founding developer at Znr Tech, I focus on creating corporate identities and developing automation solutions that enhance business processes. Working within a small team, I take an active role at every stage, building technical infrastructure and delivering tailored solutions to meet client needs. My goal is to consistently produce innovative projects and stay ahead of the curve.",
+    "section_name": {
+      "about": "About me",
+      "projects": "experience",
+      "services": "Services",
+      "products": "Products",
+      "skills": "skills",
+      "experience": "Career",
+      "contactus": "CONTACT US"
+    },
+    "social": [
+      {
+        "name": "Phone",
+        "url": "tel:+905378850218",
+        "class": "fa fa-phone"
+      },
+      {
+        "name": "WhatsApp",
+        "url": "https://wa.me/905378850218",
+        "class": "fab fa-whatsapp"
+      },
+      {
+        "name": "E-mail",
+        "url": "mailto:ogi.kahraman@hotmail.com",
+        "class": "fa fa-envelope"
+      },
+      {
+        "name": "LinkedIn",
+        "url": "https://www.linkedin.com/in/ogulcan-kahraman/",
+        "class": "fab fa-linkedin"
+      },
+      {
+        "name": "Instagram",
+        "url": "https://www.instagram.com/ogi.kahraman/",
+        "class": "fab fa-instagram"
+      }
+    ],
+    "titles": [
+      "FULL STACK DEVELOPER",
+      "MOBILE APPLICATION DEVELOPER",
+      "AUTOMATION ENGINEER",
+      "WEB DEVELOPER",
+      "COMPUTER ENGINEER"
+    ]
+  },
+  "projects": [
+    {
+      "title": "MASOMO",
+      "subtitle": "Game Designer",
+      "description": "Contributed to all stages of mobile game development, from design to maintenance, gaining comprehensive experience across departments.\nManaged projects to completion on time and within budget while maintaining high-quality standards.\nEnhanced user experience through regular updates and optimizations during the maintenance phase.\nDelivered innovative solutions by staying updated on industry trends and technologies.\nFostered collaboration and smooth coordination across teams, ensuring successful project outcomes."
+    },
+    {
+      "title": "FenoTech",
+      "subtitle": "Game Developer",
+      "description": "Successfully published a mobile game using Flutter while leading a small team and managing operations.\nPromoted collaboration and innovation by enabling team members to create their own games within the same framework.\nEnsured smooth execution through clear communication, implemented best practices, and enhanced project quality and performance.\nFostered a positive and creative team environment by encouraging new ideas and solutions.\nGuided the team through challenges, ensuring timely delivery of successful and unique game projects."
+    },
+    {
+      "title": "YapıKredi Technology",
+      "subtitle": "Software Engineer",
+      "description": "Gained long-term experience working on CRM systems and contributed to all phases of software development, from requirements gathering to maintenance.\nCollaborated with business units to deliver technical solutions and participated in major projects recognized as key company initiatives.\nUtilized diverse technologies, including Java, React, SQL, Spring Boot, and Angular, while adapting to various frameworks as needed.\nEnsured high-quality development by following best practices and fostering teamwork within a large-scale company environment.\nContributed to software improvement by enhancing functionality, performance, and overall project outcomes."
+    },
+    {
+      "title": "YapıKredi Technology",
+      "subtitle": "Automation Engineer",
+      "description": "Developed automation solutions using UiPath and managed end-to-end project processes, from initiation to deployment.\nCompleted numerous projects, took on leadership responsibilities, and ensured successful outcomes despite a smaller team size.\nEnhanced communication and people management skills by coordinating with team members and handling project handovers effectively.\nGained expertise in crisis management by resolving challenges quickly and maintaining project continuity.\nThese experiences strengthened my skills in project management, automation, communication, and team leadership."
+    },
+    {
+      "title": "Znr Tech",
+      "subtitle": "Full Stack Developer",
+      "description": "I have been serving as the Lead Developer at this newly established startup since its inception.\nAs a company, we provide services focused on creating corporate identities for brands and developing automation solutions for businesses.\nMy primary focus is on automation engineering, where I develop innovative applications to streamline business processes.\nDue to our small team structure, I also take on the role of a Full Stack Developer when needed, supporting all stages of projects.\nI am responsible for building the company\u2019s technical infrastructure, optimizing processes, and delivering tailored solutions to meet client needs."
+    },
+    {
+      "title": "Free Lance",
+      "subtitle": "Full Stack Developer",
+      "description": "As a freelance developer, I specialize in delivering end-to-end software solutions tailored to client needs.\nMy expertise spans a wide range of technologies, including Java, React, Flutter, SQL, and UiPath.\nI have successfully collaborated with diverse clients to develop mobile applications, web platforms, and automation tools that optimize business processes.\nWith a focus on quality, efficiency, and innovation, I take pride in managing projects from concept to completion, ensuring timely delivery and client satisfaction.\nI am committed to helping businesses achieve their goals."
+    }
+  ],
+  "experience": [
+    {
+        "company": "MASOMO",
+        "title": "First Experience",
+        "years": "2020",
+        "mainTech": [
+            ""
+        ],
+        "technologies": [
+            ""
+        ]
+    },
+    {
+        "company": "FenoTech",
+        "title": "First Mobile Game",
+        "years": "2021",
+        "mainTech": [
+            "Flutter"
+        ],
+        "technologies": []
+    },
+    {
+        "company": "Freelance",
+        "title": "Personal Game Experiments",
+        "years": "2021",
+        "mainTech": [
+            "Unity"
+        ],
+        "technologies": []
+    },
+    {
+        "company": "YapıKredi Technology",
+        "title": "Software Engineer",
+        "years": "2022-2023",
+        "mainTech": [
+            "FE", "BE", "DB"
+        ],
+        "technologies": [
+            "React",
+            "Spring Boot",
+            "PL/SQL",
+            "Figma",
+            "JIRA",
+            "BitBucket"
+        ]
+    },
+    {
+        "company": "YapıKredi Technology",
+        "title": "Automation Engineer",
+        "years": "2023-2024",
+        "mainTech": [
+            "RPA"
+        ],
+        "technologies": [
+            "UiPath",
+            "PL/SQL"
+        ]
+    },
+    {
+        "company": "ZNR Bilişim",
+        "title": "Full Stack Developer",
+        "years": "2024",
+        "mainTech": [
+            "React", "Node.JS"
+        ],
+        "technologies": [
+            "Web Services",
+            "B2C",
+            "HTML",
+            "CSS"
+        ]
+    },
+    {
+        "company": "Freelance",
+        "title": "Full Stack Developer",
+        "years": "2024",
+        "mainTech": [
+            "React", "Node.JS", "Java", "Python"
+        ],
+        "technologies": []
+    }
+]
+
+}
