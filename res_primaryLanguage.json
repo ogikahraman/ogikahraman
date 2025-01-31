@@ -1,0 +1,167 @@
+{
+  "basic_info": {
+    "description_header": "Merhaba",
+    "description1": "Ben, Oğulcan Kahraman, Ege Üniversitesi Bilgisayar Mühendisliği mezunuyum. Teknolojiye olan ilgim ve analitik düşünce yapım sayesinde birçok alanda kendimi geliştirdim. React, Java, Python, Flutter, SQL gibi birçok teknolojiyle çalışma fırsatı buldum ve bunları projelerimde aktif olarak kullandım.",
+    "description2": "Kariyerim boyunca mobil oyun geliştirme, yazılım mühendisliği ve otomasyon çözümleri gibi farklı alanlarda deneyim kazandım. Özellikle Yapı Kredi Teknoloji’de çalıştığım dönemde CRM sistemleri ve UiPath kullanarak projeler tamamladım, süreçleri optimize ettim ve ekip yönetimi konusunda önemli bir tecrübe edindim. Şu an, kurucu geliştirici olarak yer aldığım Znr Bilişim'de hem kurumsal kimlik oluşturma hem de iş süreçlerini iyileştiren otomasyon çözümleri üzerine çalışıyorum. Küçük bir ekip yapısında çalıştığımız için her aşamada aktif rol alıyorum, teknik altyapıyı kuruyor ve müşteri ihtiyaçlarına özel çözümler sunuyorum. Yenilikçi projeler üretmeye ve her zaman bir adım önde olmaya odaklanıyorum.",
+    "section_name": {
+      "about": "Hakkımda",
+      "projects": "TECRÜBELER",
+      "services": "HİZMETLERİMİZ",
+      "products": "ÜRÜNLERİMİZ",
+      "skills": "Beceriler",
+      "experience": "Kariyer",
+      "contactus": "BİZE ULAŞIN"
+    },
+    "social": [
+      {
+        "name": "Telefon",
+        "url": "tel:+905378850218",
+        "class": "fa fa-phone"
+      },
+      {
+        "name": "WhatsApp",
+        "url": "https://wa.me/905378850218",
+        "class": "fab fa-whatsapp"
+      },
+      {
+        "name": "E-mail",
+        "url": "mailto:ogi.kahraman@hotmail.com",
+        "class": "fa fa-envelope"
+      },
+      {
+        "name": "LinkedIn",
+        "url": "https://www.linkedin.com/in/ogulcan-kahraman/",
+        "class": "fab fa-linkedin"
+      },
+      {
+        "name": "Instagram",
+        "url": "https://www.instagram.com/ogi.kahraman/",
+        "class": "fab fa-instagram"
+      }
+    ],
+    "titles": [
+      "FULL STACK DEVELOPER",
+      "MOBİL UYGULAMA GELİŞTİRİCİSİ",
+      "OTOMASYON MÜHENDİSİ",
+      "WEB DEVELOPER",
+      "BİLGİSAYAR MÜHENDİSİ"
+    ]
+  },
+  "projects": [
+      {
+        "title": "MASOMO",
+        "subtitle": "Oyun Tasarımcısı",
+        "description": "Mobil oyun geliştirme sürecinin tüm aşamalarında, tasarımdan bakım aşamasına kadar katkıda bulunarak bölümler arasında kapsamlı deneyim kazandım.\nProjeleri yüksek kalite standartlarını koruyarak zamanında ve bütçe dahilinde tamamladım.\nKullanıcı deneyimini, bakım aşamasında yapılan düzenli güncellemeler ve iyileştirmelerle geliştirdim.\nSektördeki trendleri ve teknolojileri takip ederek yenilikçi çözümler sundum.\nEkipler arasında iş birliği ve uyumlu koordinasyonu teşvik ederek başarılı proje sonuçları elde ettim."
+      },
+      {
+        "title": "FenoTech",
+        "subtitle": "Oyun Geliştirici",
+        "description": "Küçük bir ekibi yöneterek ve operasyonları organize ederek Flutter kullanarak bir mobil oyunu başarıyla yayınladım.\nEkip üyelerinin aynı çerçeve içinde kendi oyunlarını oluşturmalarını sağlayarak iş birliğini ve yeniliği teşvik ettim.\nNet iletişim, uygulanan en iyi yöntemler ve geliştirilmiş proje kalitesiyle sorunsuz bir yürütme sağladım.\nYeni fikir ve çözümleri teşvik ederek pozitif ve yaratıcı bir ekip ortamı oluşturdum.\nEkibi zorlukların üstesinden gelerek, başarılı ve benzersiz oyun projelerinin zamanında teslim edilmesini sağladım."
+      },
+      {
+        "title": "YapıKredi Teknoloji",
+        "subtitle": "Yazılım Mühendisi",
+        "description": "CRM sistemleri üzerinde uzun vadeli deneyim kazandım ve gereksinimlerin toplanmasından bakım aşamasına kadar yazılım geliştirme süreçlerinin tüm aşamalarına katkıda bulundum.\nTeknik çözümler sunmak ve şirketin önemli girişimleri olarak kabul edilen büyük projelerde yer almak için iş birimleriyle iş birliği yaptım.\nJava, React, SQL, Spring Boot ve Angular dahil olmak üzere çeşitli teknolojilerden faydalanarak gerektiğinde farklı çerçevelere uyum sağladım.\nBüyük ölçekli bir şirket ortamında ekip çalışmasını teşvik ederek ve en iyi uygulamaları takip ederek yüksek kaliteli geliştirme sağladım.\nYazılım geliştirmelerine katkıda bulunarak işlevsellik, performans ve genel proje sonuçlarını iyileştirdim."
+      },
+      {
+        "title": "YapıKredi Teknoloji",
+        "subtitle": "Otomasyon Mühendisi",
+        "description": "UiPath kullanarak otomasyon çözümleri geliştirdim ve baştan sona proje süreçlerini yönettim.\nBirçok projeyi tamamladım, liderlik sorumluluklarını üstlendim ve daha küçük bir ekip büyüklüğüne rağmen başarılı sonuçlar elde ettim.\nEkip üyeleriyle koordinasyon sağlayarak ve proje devirlerini etkin bir şekilde ele alarak iletişim ve insan yönetimi becerilerini geliştirdim.\nKarşılaşılan sorunları hızla çözerek ve proje sürekliliğini sağlayarak kriz yönetimi konusunda uzmanlık kazandım.\nBu deneyimler, proje yönetimi, otomasyon, iletişim ve ekip liderliği konularındaki becerilerimi güçlendirdi."
+      },
+      {
+        "title": "Znr Bilişim",
+        "subtitle": "Full Stack Developer",
+        "description": "Kuruluşundan bu yana bu yeni startup şirketinde Baş Geliştirici olarak görev yapmaktayım.\nŞirket olarak, markalar için kurumsal kimlikler oluşturma ve işletmeler için otomasyon çözümleri geliştirme hizmetleri sunuyoruz.\nAna odak noktam, iş süreçlerini düzenlemek için yenilikçi uygulamalar geliştirdiğim otomasyon mühendisliğidir.\nKüçük ekip yapımız nedeniyle, gerektiğinde projelerin tüm aşamalarını destekleyerek Full Stack Geliştirici rolünü de üstleniyorum.\nŞirketin teknik altyapısını oluşturmak, süreçleri optimize etmek ve müşteri ihtiyaçlarına özel çözümler sunmaktan sorumluyum."
+      },
+      {
+        "title": "Freelance",
+        "subtitle": "Full Stack Developer",
+        "description": "Bir freelance geliştirici olarak, müşterilerin ihtiyaçlarına göre özelleştirilmiş uçtan uca yazılım çözümleri sunuyorum.\nUzmanlık alanım Java, React, Flutter, SQL ve UiPath gibi geniş bir teknoloji yelpazesini kapsıyor.\nMobil uygulamalar, web platformları ve iş süreçlerini optimize eden otomasyon araçları geliştirmek için çeşitli müşterilerle başarıyla iş birliği yaptım.\nKalite, verimlilik ve yeniliğe odaklanarak, projeleri konseptten tamamlanmaya kadar yönetmekten ve zamanında teslimat ile müşteri memnuniyetini sağlamaktan gurur duyuyorum.\nİşletmelerin hedeflerine ulaşmasına yardımcı olmaya kararlıyım."
+      }    
+  ],
+  "experience": [ 
+    {
+      "company": "MASOMO",
+      "title": "İlk Tecrübe",
+      "years": "2020",
+      "mainTech": [
+        ""
+      ],
+      "technologies": [
+        ""
+      ]
+    },
+    {
+      "company": "FenoTech",
+      "title": "İlk Mobil Oyun",
+      "years": "2021",
+      "mainTech": [
+        "Flutter"
+      ],
+      "technologies": [
+      ]
+    },
+    {
+      "company": "Freelance",
+      "title": "Kişisel Oyun Denemeleri",
+      "years": "2021",
+      "mainTech": [
+        "Unity"
+      ],
+      "technologies": [""
+      ]
+    },
+    {
+      "company": "YapıKredi Teknoloji",
+      "title": "Yazılım Mühendisi",
+      "years": "2022-2023",
+      "mainTech": [
+        "FE","BE","DB"
+      ],
+      "technologies": [
+        "React",
+        "Spring Boot",
+        "Pl/SQL",
+        "Figma",
+        "JIRA",
+        "BitBucket"
+      ]
+    },
+    {
+      "company": "YapıKredi Teknoloji",
+      "title": "Otomasyon Mühendisi",
+      "years": "2023-2024",
+      "mainTech": [
+        "RPA"
+      ],
+      "technologies": [
+        "UiPath",
+        "Pl/SQL"
+      ]
+    },
+    {
+      "company": "ZNR Bilişim",
+      "title": "Full Stack Developer",
+      "years": "2024",
+      "mainTech": [
+        "React", "Node.JS"
+      ],
+      "technologies": [
+        "Web Servisleri",
+        "B2C",
+        "HTML",
+        "CSS"
+      ]
+    },
+    {
+      "company": "Freelance",
+      "title": "Full Stack Developer",
+      "years": "2024",
+      "mainTech": [
+        "React", "Node.JS","Java","Python"
+      ],
+      "technologies": [
+      ]
+    }
+  ]
+}
