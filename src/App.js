@@ -77,6 +77,14 @@ class App extends Component {
     });
   }
 
+  handleDownload() {
+    const fileUrl = '/Ogulcan_Kahraman_CV.pdf';
+    const a = document.createElement('a');
+    a.href = fileUrl;
+    a.download = 'Ogulcan_Kahraman_CV.pdf';
+    a.click();
+  };
+
 
   render() {
     return (
@@ -90,7 +98,7 @@ class App extends Component {
           <i
             className="number fa fa-file"
             style={{ cursor: "pointer" }}
-            onClick={() => window.open("/Ogulcan_Kahraman_CV.pdf", "_blank")}
+            onClick={() => this.handleDownload()}
           ><span style={{ marginLeft: "5px" }}>CV</span>
           </i>
           <div className="text-right" style={{ display: "flex", alignItems: "center" }}>
