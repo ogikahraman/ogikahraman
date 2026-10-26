@@ -15,11 +15,4 @@ I build custom software, mobile products and games, with a background in softwar
 | **Everking** | Unity idle kingdom game, progression and balance simulation | In development |
 | [**Callidus**](https://www.callidus.digital) | Bilingual web experience and adaptive Three.js visuals | Live |
 
-### Open-source building blocks
-
-Small, standalone libraries written for public use. Client codebases and application data stay private.
-
-- [**Async Control**](https://github.com/ogikahraman/async-control) — TypeScript utilities for bounded concurrency, cancellation and opt-in retries.
-- [**Idle Economy Core**](https://github.com/ogikahraman/idle-economy-core) — exact C# upgrade-cost calculations and budget-constrained batch purchases.
-
 <sub>React · TypeScript · React Native / Expo · C# / Unity · Python</sub>
