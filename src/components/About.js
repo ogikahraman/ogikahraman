@@ -114,6 +114,9 @@ class About extends Component {
                         {about1}
                         <br />
                         {about2}
+                        {this.props.resumeBasicInfo?.current_focus && (
+                          <p className="current-focus">{this.props.resumeBasicInfo.current_focus}</p>
+                        )}
                       </div>
                     </div>
                   </div>

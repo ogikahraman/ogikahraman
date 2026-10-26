@@ -12,7 +12,6 @@ class Projects extends Component {
             className="col-sm-12 col-md-6 col-lg-4"
             key={projects.title}
             style={{
-              cursor: "pointer",
               display: "flex",
               justifyContent: "center",
               alignItems: "center",
@@ -41,11 +40,7 @@ class Projects extends Component {
                     <p className="project-subtitle-settings mt-3">
                       {projects.subtitle}
                     </p>
-                    <p className="project-desc-settings mt-3" dangerouslySetInnerHTML={{
-                      __html: projects.description.replace(/\n/g, "<br/>")
-                    }} style={{ minHeight: "26vh" }}
-                    >
-                    </p>
+                    <p className="project-desc-settings mt-3">{projects.description}</p>
                   </div>
                 </div>
               </InView>

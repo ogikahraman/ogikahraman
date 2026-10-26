@@ -1,5 +1,5 @@
 import React from 'react';
-import ReactDOM from 'react-dom';
+import { createRoot } from 'react-dom/client';
 import './index.scss';
 import App from './App';
 import 'bootstrap/dist/css/bootstrap.min.css';
@@ -11,5 +11,5 @@ window.$secondaryLanguage = 'en';
 window.$primaryLanguageIconId = 'primary-lang-icon';
 window.$secondaryLanguageIconId = 'secondary-lang-icon';
 
-const root = ReactDOM.createRoot(document.getElementById("root"));
+const root = createRoot(document.getElementById("root"));
 root.render(<App />);

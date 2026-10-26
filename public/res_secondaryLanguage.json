@@ -45,7 +45,10 @@
       "AUTOMATION ENGINEER",
       "WEB DEVELOPER",
       "COMPUTER ENGINEER"
-    ]
+    ],
+    "current_focus": "My current work spans web and mobile products, AI-assisted applications and Unity games. You can explore a selection of these projects below.",
+    "hero_nav_label": "Profile links",
+    "hero_work_label": "Selected work"
   },
   "projects": [
     {
@@ -71,7 +74,7 @@
     {
       "title": "Znr Tech",
       "subtitle": "Full Stack Developer",
-      "description": "I have been serving as the Lead Developer at this newly established startup since its inception.\nAs a company, we provide services focused on creating corporate identities for brands and developing automation solutions for businesses.\nMy primary focus is on automation engineering, where I develop innovative applications to streamline business processes.\nDue to our small team structure, I also take on the role of a Full Stack Developer when needed, supporting all stages of projects.\nI am responsible for building the company\u2019s technical infrastructure, optimizing processes, and delivering tailored solutions to meet client needs."
+      "description": "I have been serving as the Lead Developer at this newly established startup since its inception.\nAs a company, we provide services focused on creating corporate identities for brands and developing automation solutions for businesses.\nMy primary focus is on automation engineering, where I develop innovative applications to streamline business processes.\nDue to our small team structure, I also take on the role of a Full Stack Developer when needed, supporting all stages of projects.\nI am responsible for building the company’s technical infrastructure, optimizing processes, and delivering tailored solutions to meet client needs."
     },
     {
       "title": "Free Lance",
@@ -81,85 +84,151 @@
   ],
   "experience": [
     {
-        "company": "MASOMO",
-        "title": "First Experience",
-        "years": "2020",
-        "mainTech": [
-            ""
-        ],
-        "technologies": [
-            ""
-        ]
+      "company": "MASOMO",
+      "title": "First Experience",
+      "years": "2020",
+      "mainTech": [
+        ""
+      ],
+      "technologies": [
+        ""
+      ]
     },
     {
-        "company": "FenoTech",
-        "title": "First Mobile Game",
-        "years": "2021",
-        "mainTech": [
-            "Flutter"
-        ],
-        "technologies": []
+      "company": "FenoTech",
+      "title": "First Mobile Game",
+      "years": "2021",
+      "mainTech": [
+        "Flutter"
+      ],
+      "technologies": []
     },
     {
-        "company": "Freelance",
-        "title": "Personal Game Experiments",
-        "years": "2021",
-        "mainTech": [
-            "Unity"
-        ],
-        "technologies": []
+      "company": "Freelance",
+      "title": "Personal Game Experiments",
+      "years": "2021",
+      "mainTech": [
+        "Unity"
+      ],
+      "technologies": []
     },
     {
-        "company": "YapıKredi Technology",
-        "title": "Software Engineer",
-        "years": "2022-2023",
-        "mainTech": [
-            "FE", "BE", "DB"
-        ],
-        "technologies": [
-            "React",
-            "Spring Boot",
-            "PL/SQL",
-            "Figma",
-            "JIRA",
-            "BitBucket"
-        ]
+      "company": "YapıKredi Technology",
+      "title": "Software Engineer",
+      "years": "2022-2023",
+      "mainTech": [
+        "FE",
+        "BE",
+        "DB"
+      ],
+      "technologies": [
+        "React",
+        "Spring Boot",
+        "PL/SQL",
+        "Figma",
+        "JIRA",
+        "BitBucket"
+      ]
     },
     {
-        "company": "YapıKredi Technology",
-        "title": "Automation Engineer",
-        "years": "2023-2024",
-        "mainTech": [
-            "RPA"
-        ],
-        "technologies": [
-            "UiPath",
-            "PL/SQL"
-        ]
+      "company": "YapıKredi Technology",
+      "title": "Automation Engineer",
+      "years": "2023-2024",
+      "mainTech": [
+        "RPA"
+      ],
+      "technologies": [
+        "UiPath",
+        "PL/SQL"
+      ]
     },
     {
-        "company": "ZNR Bilişim",
-        "title": "Full Stack Developer",
-        "years": "2024",
-        "mainTech": [
-            "React", "Node.JS"
-        ],
-        "technologies": [
-            "Web Services",
-            "B2C",
-            "HTML",
-            "CSS"
-        ]
+      "company": "ZNR Bilişim",
+      "title": "Full Stack Developer",
+      "years": "2024",
+      "mainTech": [
+        "React",
+        "Node.JS"
+      ],
+      "technologies": [
+        "Web Services",
+        "B2C",
+        "HTML",
+        "CSS"
+      ]
     },
     {
-        "company": "Freelance",
-        "title": "Full Stack Developer",
-        "years": "2024",
-        "mainTech": [
-            "React", "Node.JS", "Java", "Python"
-        ],
-        "technologies": []
+      "company": "Freelance",
+      "title": "Full Stack Developer",
+      "years": "2024",
+      "mainTech": [
+        "React",
+        "Node.JS",
+        "Java",
+        "Python"
+      ],
+      "technologies": []
     }
-]
-
+  ],
+  "selected_work": {
+    "eyebrow": "SELECTED PROJECTS",
+    "title": "What I have been working on.",
+    "intro": "A selection of live products and projects I am continuing to develop.",
+    "stackLabel": "Technologies used",
+    "linkLabel": "Visit website",
+    "items": [
+      {
+        "id": "stillmd",
+        "title": "StillMD",
+        "stack": [
+          "React Native",
+          "Expo",
+          "TypeScript",
+          "SQLite"
+        ],
+        "status": "In development",
+        "category": "Mobile · Education",
+        "description": "A mobile application I am developing for exam preparation. It brings tests, study notes, flashcards and progress tracking together, with ongoing work on resumable sessions and offline progress."
+      },
+      {
+        "id": "athletrack",
+        "title": "AthleTrack",
+        "stack": [
+          "React",
+          "React Native",
+          "Expo",
+          "Firebase"
+        ],
+        "url": "https://app.athletrackai.com",
+        "status": "Live",
+        "category": "Web · Mobile · AI",
+        "description": "A coaching and athlete management platform I have developed, bringing training programs, measurement history and AI-assisted program suggestions into a shared web and mobile experience."
+      },
+      {
+        "id": "everking",
+        "title": "Everking",
+        "stack": [
+          "Unity",
+          "C#",
+          "Simulation"
+        ],
+        "status": "In development",
+        "category": "Game development",
+        "description": "My 2D idle kingdom game, built around automatic combat, village production and a rebirth loop. I use simulations to evaluate progression and balance while preparing it for a Steam release."
+      },
+      {
+        "id": "callidus",
+        "title": "Callidus",
+        "stack": [
+          "Next.js",
+          "React",
+          "Three.js"
+        ],
+        "url": "https://www.callidus.digital",
+        "status": "Live",
+        "category": "Web · Interactive design",
+        "description": "A bilingual web experience I have developed for a software studio, combining project showcases, a Three.js particle scene and visual effects that adapt to device performance."
+      }
+    ]
+  }
 }

@@ -93,6 +93,12 @@ class Header extends Component {
                       <p>No Titles Available</p>
                     )}
                   </div>
+                  {this.props.resumeBasicInfo && (
+                    <nav className="hero-links" aria-label={this.props.resumeBasicInfo.hero_nav_label}>
+                      <a href="#work">{this.props.resumeBasicInfo.hero_work_label}<span aria-hidden="true"> ↓</span></a>
+                      <a href="https://github.com/ogikahraman" target="_blank" rel="noopener noreferrer">GitHub<span aria-hidden="true"> ↗</span></a>
+                    </nav>
+                  )}
                   <Toggle
                     checked={this.state.checked}
                     onChange={e => this.onThemeSwitchChange(e.target.checked)}
