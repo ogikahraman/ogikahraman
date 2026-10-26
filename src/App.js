@@ -8,6 +8,7 @@ import Projects from "./components/Projects";
 import Skills from "./components/Skills";
 import Experience from "./components/Experience";
 import SelectedWork from "./components/SelectedWork";
+import LiveSites from "./components/LiveSites";
 
 class App extends Component {
   constructor(props) {
@@ -147,6 +148,7 @@ class App extends Component {
           sharedBasicInfo={this.state.sharedData.basic_info}
         />
         <SelectedWork content={this.state.resumeData.selected_work} />
+        <LiveSites content={this.state.resumeData.live_sites} />
         <Projects
           resumeProjects={this.state.resumeData.projects}
           resumeBasicInfo={this.state.resumeData.basic_info}

@@ -829,3 +829,24 @@ a:focus-visible, button:focus-visible, input:focus-visible { outline: 3px solid 
   .work-card, .header-content, #about-section, .polaroid { transition: none; }
   .fadeSlideUp, .bounce, .swingIn { animation: none; opacity: 1 !important; transform: none !important; }
 }
+
+.work-links { display: flex; flex-wrap: wrap; gap: 20px; }
+.live-sites { background: #fff4be; padding: 40px 24px 64px; scroll-margin-top: 24px; }
+.live-sites-grid { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); column-gap: 32px; }
+.live-site { display: flex; flex-direction: column; gap: 7px; padding: 20px 0; text-decoration: none; border-bottom: 1px solid rgba(112,99,58,.2); }
+.live-site-name { color: #353239; font-size: 15px; font-weight: 600; }
+.live-site-domain { color: #70633a; font-size: 12px; overflow-wrap: anywhere; }
+.live-site:hover .live-site-name { text-decoration: underline; text-underline-offset: 4px; }
+.live-sites-more { margin-top: 28px; }
+.live-sites-more summary { width: fit-content; font-size: 13px; color: #625537; cursor: pointer; padding: 8px 0; }
+.live-sites-more summary span { opacity: .75; }
+body[data-theme='dark'] {
+  .live-sites { background: linear-gradient(to bottom, #777, #7f7f7f); }
+  .live-site { border-color: rgba(255,255,255,.17); }
+  .live-site-name { color: #fff; }
+  .live-site-domain, .live-sites-more summary { color: #f0dfad; }
+}
+@media (max-width: 650px) {
+  .live-sites { padding: 32px 20px 48px; }
+  .live-sites-grid { grid-template-columns: 1fr; }
+}

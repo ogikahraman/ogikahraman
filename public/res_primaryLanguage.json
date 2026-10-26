@@ -48,7 +48,8 @@
     ],
     "current_focus": "Güncel çalışmalarımda web ve mobil ürünler, yapay zekâ destekli uygulamalar ve Unity oyunları geliştiriyorum. Seçili projelerimi aşağıda bulabilirsiniz.",
     "hero_nav_label": "Profil bağlantıları",
-    "hero_work_label": "Güncel çalışmalar"
+    "hero_work_label": "Güncel çalışmalar",
+    "hero_sites_label": "Yayındaki siteler"
   },
   "projects": [
     {
@@ -201,10 +202,19 @@
           "Expo",
           "Firebase"
         ],
-        "url": "https://app.athletrackai.com",
         "status": "Yayında",
         "category": "Web · Mobil · Yapay zekâ",
-        "description": "Antrenörler ve sporcular için geliştirdiğim takip platformu. Antrenman programları, ölçüm geçmişi ve yapay zekâ destekli program önerilerini web ve mobil deneyimde buluşturuyor."
+        "description": "Antrenörler ve sporcular için geliştirdiğim takip platformu. Antrenman programları, ölçüm geçmişi ve yapay zekâ destekli program önerilerini web ve mobil deneyimde buluşturuyor.",
+        "links": [
+          {
+            "label": "Web uygulaması",
+            "url": "https://www.athletrackai.com"
+          },
+          {
+            "label": "App Store",
+            "url": "https://apps.apple.com/tr/app/athletrack-pt-client-tracker/id6757748679"
+          }
+        ]
       },
       {
         "id": "everking",
@@ -230,6 +240,82 @@
         "status": "Yayında",
         "category": "Web · Etkileşim tasarımı",
         "description": "Yazılım stüdyosu için geliştirdiğim iki dilli web deneyimi. Proje sunumlarını, Three.js parçacık sahnesini ve cihaz performansına uyarlanan görsel efektleri bir araya getiriyor."
+      }
+    ]
+  },
+  "live_sites": {
+    "eyebrow": "WEB PROJELERİ",
+    "title": "Yayındaki siteler.",
+    "intro": "Farklı sektörler için geliştirdiğim web sitelerinden bir seçki. Bağlantılardan doğrudan inceleyebilirsiniz.",
+    "moreLabel": "Diğer siteleri göster",
+    "items": [
+      {
+        "name": "Zateviss",
+        "url": "https://www.zateviss.com"
+      },
+      {
+        "name": "Halley Deri",
+        "url": "https://www.halleyderi.com"
+      },
+      {
+        "name": "Tek Yonca Beach & Restaurant",
+        "url": "https://www.tekyonca.com"
+      },
+      {
+        "name": "Aden İklimlendirme",
+        "url": "https://www.adeniklimlendirme.com"
+      },
+      {
+        "name": "Point-Lab",
+        "url": "https://www.point-lab.net"
+      },
+      {
+        "name": "Nedim Opel",
+        "url": "https://www.nedimopel.com"
+      },
+      {
+        "name": "Acar Modern Mobilya",
+        "url": "https://www.acarmodernmobilya.com"
+      },
+      {
+        "name": "Kahraman Ahşap Merdiven",
+        "url": "https://www.kahramanahsapmerdiven.com"
+      },
+      {
+        "name": "Yiğit Alp Lojistik",
+        "url": "https://yigitalp.vercel.app"
+      },
+      {
+        "name": "Demirbağ Dekorasyon",
+        "url": "https://demirbagdekorasyon.vercel.app"
+      },
+      {
+        "name": "Renaline Pencere",
+        "url": "https://renaline.vercel.app"
+      },
+      {
+        "name": "ERK İnşaat Nakliye",
+        "url": "https://erkinsaat.vercel.app"
+      },
+      {
+        "name": "Özkasal Hafriyat",
+        "url": "https://www.ozkasalhafriyat.com"
+      },
+      {
+        "name": "SDR Polat Elektrik",
+        "url": "https://www.sdrpolatelektrik.com"
+      },
+      {
+        "name": "Serhat İnşaat ve Alüminyum",
+        "url": "https://www.serhataluminyum.com"
+      },
+      {
+        "name": "Demirbağ Mezar",
+        "url": "https://demirbagmezar.vercel.app"
+      },
+      {
+        "name": "Yağmur Koca",
+        "url": "https://ptyagmurkoca.vercel.app"
       }
     ]
   }

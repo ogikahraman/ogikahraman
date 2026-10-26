@@ -15,9 +15,9 @@ test.each([['Turkish', turkish], ['English', english]])('%s project section incl
   expect(screen.getByRole('heading', { name: 'Everking' })).toBeInTheDocument();
   expect(screen.getAllByRole('article')).toHaveLength(4);
   const links = screen.getAllByRole('link');
-  expect(links).toHaveLength(2);
+  expect(links).toHaveLength(3);
   links.forEach(link => {
-    expect(link.href).toMatch(/^https:\/\/(app\.athletrackai\.com|www\.callidus\.digital)\/?$/);
+    expect(['www.athletrackai.com', 'www.callidus.digital', 'apps.apple.com']).toContain(new URL(link.href).hostname);
     expect(link).toHaveAttribute('rel', 'noopener noreferrer');
   });
 });

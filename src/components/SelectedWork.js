@@ -26,12 +26,14 @@ export default function SelectedWork({ content }) {
               <ul className="work-stack" aria-label={content.stackLabel}>
                 {project.stack.map(technology => <li key={technology}>{technology}</li>)}
               </ul>
-              {project.url && (
-                <a className="work-link" href={project.url} target="_blank" rel="noopener noreferrer">
-                  {content.linkLabel}<span aria-hidden="true"> ↗</span>
-                  <span className="visually-hidden"> — {project.title}</span>
-                </a>
-              )}
+              <div className="work-links">
+                {(project.links || (project.url ? [{ url: project.url, label: content.linkLabel }] : [])).map(link => (
+                  <a className="work-link" key={link.url} href={link.url} target="_blank" rel="noopener noreferrer">
+                    {link.label}<span aria-hidden="true"> ↗</span>
+                    <span className="visually-hidden"> — {project.title}</span>
+                  </a>
+                ))}
+              </div>
             </article>
           ))}
         </div>

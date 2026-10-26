@@ -48,7 +48,8 @@
     ],
     "current_focus": "My current work spans web and mobile products, AI-assisted applications and Unity games. You can explore a selection of these projects below.",
     "hero_nav_label": "Profile links",
-    "hero_work_label": "Selected work"
+    "hero_work_label": "Selected work",
+    "hero_sites_label": "Live websites"
   },
   "projects": [
     {
@@ -199,10 +200,19 @@
           "Expo",
           "Firebase"
         ],
-        "url": "https://app.athletrackai.com",
         "status": "Live",
         "category": "Web · Mobile · AI",
-        "description": "A coaching and athlete management platform I have developed, bringing training programs, measurement history and AI-assisted program suggestions into a shared web and mobile experience."
+        "description": "A coaching and athlete management platform I have developed, bringing training programs, measurement history and AI-assisted program suggestions into a shared web and mobile experience.",
+        "links": [
+          {
+            "label": "Web app",
+            "url": "https://www.athletrackai.com"
+          },
+          {
+            "label": "App Store",
+            "url": "https://apps.apple.com/tr/app/athletrack-pt-client-tracker/id6757748679"
+          }
+        ]
       },
       {
         "id": "everking",
@@ -228,6 +238,82 @@
         "status": "Live",
         "category": "Web · Interactive design",
         "description": "A bilingual web experience I have developed for a software studio, combining project showcases, a Three.js particle scene and visual effects that adapt to device performance."
+      }
+    ]
+  },
+  "live_sites": {
+    "eyebrow": "WEB PROJECTS",
+    "title": "Live websites.",
+    "intro": "A selection of websites I have developed across different industries. Follow the links to explore them.",
+    "moreLabel": "Show more websites",
+    "items": [
+      {
+        "name": "Zateviss",
+        "url": "https://www.zateviss.com"
+      },
+      {
+        "name": "Halley Deri",
+        "url": "https://www.halleyderi.com"
+      },
+      {
+        "name": "Tek Yonca Beach & Restaurant",
+        "url": "https://www.tekyonca.com"
+      },
+      {
+        "name": "Aden İklimlendirme",
+        "url": "https://www.adeniklimlendirme.com"
+      },
+      {
+        "name": "Point-Lab",
+        "url": "https://www.point-lab.net"
+      },
+      {
+        "name": "Nedim Opel",
+        "url": "https://www.nedimopel.com"
+      },
+      {
+        "name": "Acar Modern Mobilya",
+        "url": "https://www.acarmodernmobilya.com"
+      },
+      {
+        "name": "Kahraman Ahşap Merdiven",
+        "url": "https://www.kahramanahsapmerdiven.com"
+      },
+      {
+        "name": "Yiğit Alp Lojistik",
+        "url": "https://yigitalp.vercel.app"
+      },
+      {
+        "name": "Demirbağ Dekorasyon",
+        "url": "https://demirbagdekorasyon.vercel.app"
+      },
+      {
+        "name": "Renaline Pencere",
+        "url": "https://renaline.vercel.app"
+      },
+      {
+        "name": "ERK İnşaat Nakliye",
+        "url": "https://erkinsaat.vercel.app"
+      },
+      {
+        "name": "Özkasal Hafriyat",
+        "url": "https://www.ozkasalhafriyat.com"
+      },
+      {
+        "name": "SDR Polat Elektrik",
+        "url": "https://www.sdrpolatelektrik.com"
+      },
+      {
+        "name": "Serhat İnşaat ve Alüminyum",
+        "url": "https://www.serhataluminyum.com"
+      },
+      {
+        "name": "Demirbağ Mezar",
+        "url": "https://demirbagmezar.vercel.app"
+      },
+      {
+        "name": "Yağmur Koca",
+        "url": "https://ptyagmurkoca.vercel.app"
       }
     ]
   }
