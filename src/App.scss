@@ -397,7 +397,7 @@ header h1 {
 }
 
 #portfolio {
-	background: linear-gradient(to bottom, #fff4be, #ffec8c);
+	background: linear-gradient(to bottom, #ffee9b, #ffec8c);
 
 
 	padding-bottom: 5%;
@@ -775,7 +775,7 @@ body[data-theme='dark'] .hero-links a { color: #e5d4a3; }
 #about .card-header { padding: 12px 18px; }
 #about .card-body { padding: 12px 24px 28px; }
 #about .polaroid span { border-radius: 12px; box-shadow: 0 8px 24px rgba(0,0,0,.12); }
-.selected-work { background: #fff4be; padding: 64px 24px 40px; scroll-margin-top: 24px; }
+.selected-work { background: linear-gradient(to bottom, #fff4be, #fff1ad); padding: 64px 24px 40px; scroll-margin-top: 24px; }
 .work-container { max-width: 1120px; margin: 0 auto; }
 .work-heading { display: flex; justify-content: space-between; align-items: end; gap: 30px; margin-bottom: 32px; }
 .work-eyebrow { font-size: 10px; font-weight: 650; letter-spacing: .17em; color: #70633a; margin: 0 0 14px; }
@@ -795,7 +795,7 @@ body[data-theme='dark'] .hero-links a { color: #e5d4a3; }
 .work-link { align-self: start; margin-top: 24px; font-size: 12px; font-weight: 600; color: #58471f; text-decoration: none; }
 .work-link:hover { color: #353239; text-decoration: underline; }
 body[data-theme='dark'] {
-  .selected-work { background: linear-gradient(to bottom, #7f7f7f, #777); }
+  .selected-work { background: linear-gradient(to bottom, #7f7f7f, #727272); }
   .work-heading h2, .work-card h3 { color: #fff; }
   .work-eyebrow, .work-category, .work-number { color: #f0dfad; }
   .work-intro, .work-description { color: #f0f0f0; }
@@ -831,22 +831,55 @@ a:focus-visible, button:focus-visible, input:focus-visible { outline: 3px solid 
 }
 
 .work-links { display: flex; flex-wrap: wrap; gap: 20px; }
-.live-sites { background: #fff4be; padding: 40px 24px 64px; scroll-margin-top: 24px; }
+.live-sites { background: linear-gradient(to bottom, #fff1ad, #ffee9b); padding: 40px 24px 64px; scroll-margin-top: 24px; }
 .live-sites-grid { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); column-gap: 32px; }
 .live-site { display: flex; flex-direction: column; gap: 7px; padding: 20px 0; text-decoration: none; border-bottom: 1px solid rgba(112,99,58,.2); }
 .live-site-name { color: #353239; font-size: 15px; font-weight: 600; }
 .live-site-domain { color: #70633a; font-size: 12px; overflow-wrap: anywhere; }
 .live-site:hover .live-site-name { text-decoration: underline; text-underline-offset: 4px; }
-.live-sites-more { margin-top: 28px; }
-.live-sites-more summary { width: fit-content; font-size: 13px; color: #625537; cursor: pointer; padding: 8px 0; }
-.live-sites-more summary span { opacity: .75; }
 body[data-theme='dark'] {
-  .live-sites { background: linear-gradient(to bottom, #777, #7f7f7f); }
+  .live-sites { background: linear-gradient(to bottom, #727272, #666666); }
   .live-site { border-color: rgba(255,255,255,.17); }
   .live-site-name { color: #fff; }
-  .live-site-domain, .live-sites-more summary { color: #f0dfad; }
+  .live-site-domain { color: #f0dfad; }
 }
 @media (max-width: 650px) {
   .live-sites { padding: 32px 20px 48px; }
   .live-sites-grid { grid-template-columns: 1fr; }
+}
+
+.cv-download { display: inline-flex; align-items: center; justify-content: center; gap: 7px; padding: 8px 12px; border: 1px solid rgba(53,50,57,.28); border-radius: 7px; color: #353239; background: rgba(255,255,255,.2); font-size: 12px; font-weight: 500; line-height: 1.2; text-decoration: none; white-space: nowrap; transition: background .2s, border-color .2s; }
+.cv-download:hover { color: #353239; background: rgba(255,255,255,.45); border-color: rgba(53,50,57,.5); }
+body[data-theme='dark'] .cv-download { color: #eee; border-color: rgba(255,255,255,.24); background: rgba(255,255,255,.04); }
+body[data-theme='dark'] .cv-download:hover { color: #fff; border-color: rgba(240,223,173,.6); background: rgba(255,255,255,.1); }
+.career-container { max-width: 1120px; margin: 0 auto; padding: 0 20px; }
+.career-intro { max-width: 520px; margin: -18px auto 40px; padding: 0 20px; text-align: center; color: #554925; font-size: 14px; line-height: 1.8; }
+#resume .vertical-timeline-element-content { border-radius: 12px; padding: 26px; box-shadow: 0 5px 18px rgba(0,0,0,.1); background: #fff8df; }
+#resume .vertical-timeline-element-content-arrow { border-right-color: #fff8df; }
+#resume .vertical-timeline-element-title { font-size: 19px; font-weight: 600; letter-spacing: -.02em; line-height: 1.4; color: #353239; }
+#resume .vertical-timeline-element-subtitle { margin-top: 7px; font-size: 13px; font-weight: 500; color: #736344; }
+#resume .career-main-tech, #resume .career-technologies { display: flex; gap: 6px; flex-wrap: wrap; }
+#resume .career-main-tech { margin-bottom: 16px; }
+#resume .career-technologies { margin-top: 16px; }
+#resume .main-badge, #resume .experience-badge { font-family: inherit; font-size: 10px !important; font-weight: 500 !important; border-radius: 5px; padding: 6px 9px !important; margin: 0 !important; }
+#resume .career-summary { font-size: 13px; font-weight: 400; line-height: 1.8; color: #665c42; margin-top: 16px; }
+#resume .vertical-timeline-element-date { font-size: 12px; font-weight: 600; opacity: 1; letter-spacing: .02em; }
+#resume .career-current .vertical-timeline-element-content { outline: 1px solid #ad9454; outline-offset: 3px; }
+#resume .vertical-timeline-element-icon { display: flex; align-items: center; justify-content: center; }
+#resume .vertical-timeline-element-icon img { width: 60%; }
+body[data-theme='dark'] {
+  .career-intro { color: #c5c5c5; }
+  #resume .vertical-timeline-element-content { background: #3b3b3b; border: 1px solid rgba(255,255,255,.12); }
+  #resume .vertical-timeline-element-content-arrow { border-right-color: #3b3b3b; }
+  #resume .vertical-timeline-element-title { color: #fff; }
+  #resume .vertical-timeline-element-subtitle { color: #eadbb4; }
+  #resume .career-summary { color: #dedede; }
+  #resume .main-badge, #resume .experience-badge { background: #515151 !important; color: #eee; }
+  #resume .vertical-timeline-element-date { color: #eee; }
+}
+@media (max-width: 650px) {
+  .cv-download { padding: 7px 9px; font-size: 11px; gap: 5px; }
+  .career-container { padding: 0 10px; }
+  #resume .vertical-timeline-element-content { padding: 20px; }
+  .career-intro { margin-top: 0; }
 }

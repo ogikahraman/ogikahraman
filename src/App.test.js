@@ -2,6 +2,7 @@ import React from 'react';
 import { render, screen } from '@testing-library/react';
 import SelectedWork from './components/SelectedWork';
 import About from './components/About';
+import LiveSites from './components/LiveSites';
 import { setupIntersectionMocking, resetIntersectionMocking } from 'react-intersection-observer/test-utils';
 import turkish from '../public/res_primaryLanguage.json';
 import english from '../public/res_secondaryLanguage.json';
@@ -13,13 +14,22 @@ test.each([['Turkish', turkish], ['English', english]])('%s project section incl
   render(<SelectedWork content={data.selected_work} />);
   expect(screen.getByRole('heading', { name: 'StillMD' })).toBeInTheDocument();
   expect(screen.getByRole('heading', { name: 'Everking' })).toBeInTheDocument();
-  expect(screen.getAllByRole('article')).toHaveLength(4);
+  expect(screen.getByRole('heading', { name: 'Who A-Meme I?' })).toBeInTheDocument();
+  expect(screen.getAllByRole('article')).toHaveLength(5);
   const links = screen.getAllByRole('link');
   expect(links).toHaveLength(3);
   links.forEach(link => {
     expect(['www.athletrackai.com', 'www.callidus.digital', 'apps.apple.com']).toContain(new URL(link.href).hostname);
     expect(link).toHaveAttribute('rel', 'noopener noreferrer');
   });
+});
+
+test.each([['Turkish', turkish], ['English', english]])('%s site list contains only the selected eight sites', (_, data) => {
+  const { container } = render(<LiveSites content={data.live_sites} />);
+  expect(screen.getAllByRole('link')).toHaveLength(8);
+  expect(screen.getByRole('link', { name: /SDR Polat Elektrik/ })).toHaveAttribute('href', 'https://www.sdrpolatelektrik.com');
+  expect(screen.queryByText(/Tek Yonca/)).not.toBeInTheDocument();
+  expect(container.querySelector('details')).toBeNull();
 });
 
 test('keeps unfinished projects visible without invented live links', () => {

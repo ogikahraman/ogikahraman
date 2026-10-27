@@ -11,8 +11,8 @@ class Experience extends Component {
     if (this.props.resumeExperience && this.props.resumeBasicInfo) {
       var sectionName = this.props.resumeBasicInfo.section_name.experience;
       var work = this.props.resumeExperience.map(function (work, i) {
-        const technologies = work.technologies;
-        const mainTechnologies = work.mainTech;
+        const technologies = (work.technologies || []).filter(Boolean);
+        const mainTechnologies = (work.mainTech || []).filter(Boolean);
 
         var mainTech = mainTechnologies.map((technology, i) => {
           return (
@@ -30,7 +30,7 @@ class Experience extends Component {
         });
         return (
           <VerticalTimelineElement
-            className="vertical-timeline-element--work"
+            className={`vertical-timeline-element--work${work.current ? ' career-current' : ''}`}
             date={work.years}
             iconStyle={{
               background: "#AE944F",
@@ -41,7 +41,7 @@ class Experience extends Component {
             icon={<img width={'80%'} src={process.env.PUBLIC_URL + "/favicon.ico"} alt="myIcon" />}
             key={i}
           >
-            <div style={{ textAlign: "left", marginBottom: "4px" }}>
+            <div className="career-main-tech">
               {mainTech}
             </div>
 
@@ -57,7 +57,8 @@ class Experience extends Component {
             >
               {work.company}
             </h4>
-            <div style={{ textAlign: "left", marginTop: "15px" }}>{tech}</div>
+            {work.summary && <p className="career-summary">{work.summary}</p>}
+            {technologies.length > 0 && <div className="career-technologies">{tech}</div>}
           </VerticalTimelineElement>
         );
       });
@@ -72,9 +73,10 @@ class Experience extends Component {
                 {sectionName}
               </span>
             </h1>
+            {this.props.resumeBasicInfo?.career_intro && <p className="career-intro">{this.props.resumeBasicInfo.career_intro}</p>}
           </div>
         </div>
-        <div className="col-md-8 mx-auto">
+        <div className="career-container">
           <VerticalTimeline>
             {work}
             <VerticalTimelineElement

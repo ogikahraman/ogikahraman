@@ -79,15 +79,6 @@ class App extends Component {
     });
   }
 
-  handleDownload() {
-    const fileUrl = '/Ogulcan_Kahraman_CV.pdf';
-    const a = document.createElement('a');
-    a.href = fileUrl;
-    a.download = 'Ogulcan_Kahraman_CV.pdf';
-    a.click();
-  };
-
-
   render() {
     return (
       <div>
@@ -97,12 +88,12 @@ class App extends Component {
         >
           <span className="number" style={{ cursor: "pointer", marginLeft: "10px" }} onClick={() => { window.location.href = "mailto:ogi.kahraman@hotmail.com" }}
           >ogi.kahraman@hotmail.com</span>
-          <i
-            className="number fa fa-file"
-            style={{ cursor: "pointer" }}
-            onClick={() => this.handleDownload()}
-          ><span style={{ marginLeft: "5px" }}>CV</span>
-          </i>
+          <a className="cv-download" href="/Ogulcan_Kahraman_CV.pdf" download="Ogulcan_Kahraman_CV.pdf">
+            <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.7" strokeLinecap="round" strokeLinejoin="round" aria-hidden="true">
+              <path d="M12 3v12m-4-4 4 4 4-4M5 16v4h14v-4" />
+            </svg>
+            <span>{this.state.resumeData.basic_info?.cv_download_label || 'CV'}</span>
+          </a>
           <div className="text-right" style={{ display: "flex", alignItems: "center" }}>
             <div
               onClick={() =>

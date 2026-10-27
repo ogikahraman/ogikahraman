@@ -11,8 +11,6 @@ function SiteLink({ site }) {
 
 export default function LiveSites({ content }) {
   if (!content) return null;
-  const featured = content.items.slice(0, 8);
-  const remaining = content.items.slice(8);
   return (
     <section id="live-sites" className="live-sites" aria-labelledby="live-sites-title">
       <div className="work-container">
@@ -24,16 +22,8 @@ export default function LiveSites({ content }) {
           <p className="work-intro">{content.intro}</p>
         </div>
         <div className="live-sites-grid">
-          {featured.map(site => <SiteLink key={site.url} site={site} />)}
+          {content.items.map(site => <SiteLink key={site.url} site={site} />)}
         </div>
-        {remaining.length > 0 && (
-          <details className="live-sites-more">
-            <summary>{content.moreLabel} <span>({remaining.length})</span></summary>
-            <div className="live-sites-grid">
-              {remaining.map(site => <SiteLink key={site.url} site={site} />)}
-            </div>
-          </details>
-        )}
       </div>
     </section>
   );

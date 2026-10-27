@@ -49,7 +49,9 @@
     "current_focus": "Güncel çalışmalarımda web ve mobil ürünler, yapay zekâ destekli uygulamalar ve Unity oyunları geliştiriyorum. Seçili projelerimi aşağıda bulabilirsiniz.",
     "hero_nav_label": "Profil bağlantıları",
     "hero_work_label": "Güncel çalışmalar",
-    "hero_sites_label": "Yayındaki siteler"
+    "hero_sites_label": "Yayındaki siteler",
+    "career_intro": "Oyun geliştirme, kurumsal yazılım ve otomasyondan bugünkü ürün çalışmalarına.",
+    "cv_download_label": "CV’yi indir"
   },
   "projects": [
     {
@@ -93,7 +95,8 @@
       ],
       "technologies": [
         ""
-      ]
+      ],
+      "summary": "Mobil oyunların tasarımından bakımına uzanan geliştirme süreçlerinde deneyim."
     },
     {
       "company": "FenoTech",
@@ -102,7 +105,8 @@
       "mainTech": [
         "Flutter"
       ],
-      "technologies": []
+      "technologies": [],
+      "summary": "Flutter ile mobil oyun yayını ve küçük bir geliştirme ekibinin koordinasyonu."
     },
     {
       "company": "Freelance",
@@ -113,7 +117,8 @@
       ],
       "technologies": [
         ""
-      ]
+      ],
+      "summary": "Unity ile kişisel oyun prototipleri ve oyun mekanikleri üzerine çalışmalar."
     },
     {
       "company": "YapıKredi Teknoloji",
@@ -131,7 +136,8 @@
         "Figma",
         "JIRA",
         "BitBucket"
-      ]
+      ],
+      "summary": "React, Spring Boot ve PL/SQL ile kurumsal CRM geliştirme süreçlerine katkı."
     },
     {
       "company": "YapıKredi Teknoloji",
@@ -143,7 +149,8 @@
       "technologies": [
         "UiPath",
         "Pl/SQL"
-      ]
+      ],
+      "summary": "UiPath ile uçtan uca süreç otomasyonu ve proje koordinasyonu."
     },
     {
       "company": "ZNR Bilişim",
@@ -158,7 +165,8 @@
         "B2C",
         "HTML",
         "CSS"
-      ]
+      ],
+      "summary": "React ve Node.js ile kurumsal web çözümleri ve teknik altyapı geliştirme."
     },
     {
       "company": "Freelance",
@@ -170,7 +178,25 @@
         "Java",
         "Python"
       ],
-      "technologies": []
+      "technologies": [],
+      "summary": "Web, mobil ve otomasyon alanlarında müşteriye özel uçtan uca yazılım çözümleri."
+    },
+    {
+      "company": "Güncel projeler",
+      "title": "Web, Mobil ve Oyun Geliştirme",
+      "years": "Güncel",
+      "mainTech": [
+        "React Native",
+        "TypeScript",
+        "Unity"
+      ],
+      "technologies": [
+        "React",
+        "C#",
+        "Python"
+      ],
+      "summary": "StillMD, AthleTrack, Everking ve Who A-Meme I? üzerinde ürün geliştirme çalışmaları.",
+      "current": true
     }
   ],
   "selected_work": {
@@ -229,6 +255,19 @@
         "description": "Otomatik savaş, köy üretimi ve yeniden doğma döngüsü üzerine kurulu 2B idle krallık oyunum. İlerleme ve oyun dengesini simülasyonlarla değerlendiriyor, Steam yayınına hazırlıyorum."
       },
       {
+        "id": "who-a-meme-i",
+        "title": "Who A-Meme I?",
+        "stack": [
+          "Unity 6",
+          "C#",
+          "Netcode for GameObjects",
+          "Relay"
+        ],
+        "status": "Steam istek listesi yakında",
+        "category": "Çok oyunculu oyun",
+        "description": "Unity ile geliştirdiğim çevrimiçi çok oyunculu sosyal oyun. Her turda oyuncular soruları yanıtlıyor, kral seçtiği cevapları basamaklarda yukarı taşıyor. Steam istek listesi sayfasını yakında açıyoruz."
+      },
+      {
         "id": "callidus",
         "title": "Callidus",
         "stack": [
@@ -247,7 +286,6 @@
     "eyebrow": "WEB PROJELERİ",
     "title": "Yayındaki siteler.",
     "intro": "Farklı sektörler için geliştirdiğim web sitelerinden bir seçki. Bağlantılardan doğrudan inceleyebilirsiniz.",
-    "moreLabel": "Diğer siteleri göster",
     "items": [
       {
         "name": "Zateviss",
@@ -258,8 +296,8 @@
         "url": "https://www.halleyderi.com"
       },
       {
-        "name": "Tek Yonca Beach & Restaurant",
-        "url": "https://www.tekyonca.com"
+        "name": "SDR Polat Elektrik",
+        "url": "https://www.sdrpolatelektrik.com"
       },
       {
         "name": "Aden İklimlendirme",
@@ -280,42 +318,6 @@
       {
         "name": "Kahraman Ahşap Merdiven",
         "url": "https://www.kahramanahsapmerdiven.com"
-      },
-      {
-        "name": "Yiğit Alp Lojistik",
-        "url": "https://yigitalp.vercel.app"
-      },
-      {
-        "name": "Demirbağ Dekorasyon",
-        "url": "https://demirbagdekorasyon.vercel.app"
-      },
-      {
-        "name": "Renaline Pencere",
-        "url": "https://renaline.vercel.app"
-      },
-      {
-        "name": "ERK İnşaat Nakliye",
-        "url": "https://erkinsaat.vercel.app"
-      },
-      {
-        "name": "Özkasal Hafriyat",
-        "url": "https://www.ozkasalhafriyat.com"
-      },
-      {
-        "name": "SDR Polat Elektrik",
-        "url": "https://www.sdrpolatelektrik.com"
-      },
-      {
-        "name": "Serhat İnşaat ve Alüminyum",
-        "url": "https://www.serhataluminyum.com"
-      },
-      {
-        "name": "Demirbağ Mezar",
-        "url": "https://demirbagmezar.vercel.app"
-      },
-      {
-        "name": "Yağmur Koca",
-        "url": "https://ptyagmurkoca.vercel.app"
       }
     ]
   }
