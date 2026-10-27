@@ -956,3 +956,17 @@ body[data-theme='light'] {
   footer a:hover, footer a:focus { color: #23391e; }
   .cv-download:focus-visible, a:focus-visible, button:focus-visible, input:focus-visible { outline-color: #718b64; }
 }
+
+.portfolio-topbar {
+  display: grid;
+  grid-template-columns: minmax(0, 1fr) auto minmax(0, 1fr);
+  align-items: center;
+  column-gap: 12px;
+}
+.topbar-email { justify-self: start; min-width: 0; max-width: 100%; overflow: hidden; text-overflow: ellipsis; white-space: nowrap; text-decoration: none; }
+.portfolio-topbar .cv-download { justify-self: center; }
+.topbar-languages { justify-self: end; }
+@media (max-width: 650px) {
+  .portfolio-topbar { column-gap: 8px; }
+  .portfolio-topbar .topbar-email { font-size: 11px; }
+}

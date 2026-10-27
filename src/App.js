@@ -83,18 +83,16 @@ class App extends Component {
     return (
       <div>
         <div
-          className="col-md-12 mx-auto language"
-          style={{ display: "flex", alignItems: "center", justifyContent: "space-between" }}
+          className="col-md-12 mx-auto language portfolio-topbar"
         >
-          <span className="number" style={{ cursor: "pointer", marginLeft: "10px" }} onClick={() => { window.location.href = "mailto:ogi.kahraman@hotmail.com" }}
-          >ogi.kahraman@hotmail.com</span>
+          <a className="number topbar-email" href="mailto:ogi.kahraman@hotmail.com" title="ogi.kahraman@hotmail.com">ogi.kahraman@hotmail.com</a>
           <a className="cv-download" href="/Ogulcan_Kahraman_CV.pdf" download="Ogulcan_Kahraman_CV.pdf">
             <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.7" strokeLinecap="round" strokeLinejoin="round" aria-hidden="true">
               <path d="M12 3v12m-4-4 4 4 4-4M5 16v4h14v-4" />
             </svg>
             <span>{this.state.resumeData.basic_info?.cv_download_label || 'CV'}</span>
           </a>
-          <div className="text-right" style={{ display: "flex", alignItems: "center" }}>
+          <div className="text-right topbar-languages" style={{ display: "flex", alignItems: "center" }}>
             <div
               onClick={() =>
                 this.applyPickedLanguage(
