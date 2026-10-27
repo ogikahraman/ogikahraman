@@ -16,7 +16,7 @@ I build custom software, mobile products and games, with a background in softwar
 | **Who A-Meme I?** | Online multiplayer social game built with Unity | Steam wishlist coming soon |
 | [**Callidus**](https://www.callidus.digital) | Bilingual web experience and adaptive Three.js visuals | Live |
 
-### Live websites
+### Some live websites
 
 | Website | Live URL |
 | --- | --- |
@@ -29,6 +29,6 @@ I build custom software, mobile products and games, with a background in softwar
 | Acar Modern Mobilya | [www.acarmodernmobilya.com](https://www.acarmodernmobilya.com) |
 | Kahraman Ahşap Merdiven | [www.kahramanahsapmerdiven.com](https://www.kahramanahsapmerdiven.com) |
 
-[Live websites](https://ogikahraman.vercel.app/#live-sites) · [AthleTrack on the App Store](https://apps.apple.com/tr/app/athletrack-pt-client-tracker/id6757748679)
+[Some live websites](https://ogikahraman.vercel.app/#live-sites) · [AthleTrack on the App Store](https://apps.apple.com/tr/app/athletrack-pt-client-tracker/id6757748679)
 
 <sub>React · TypeScript · React Native / Expo · C# / Unity · Python</sub>

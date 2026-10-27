@@ -49,7 +49,7 @@
     "current_focus": "Güncel çalışmalarımda web ve mobil ürünler, yapay zekâ destekli uygulamalar ve Unity oyunları geliştiriyorum. Seçili projelerimi aşağıda bulabilirsiniz.",
     "hero_nav_label": "Profil bağlantıları",
     "hero_work_label": "Güncel çalışmalar",
-    "hero_sites_label": "Yayındaki siteler",
+    "hero_sites_label": "Seçili siteler",
     "career_intro": "Oyun geliştirme, kurumsal yazılım ve otomasyondan bugünkü ürün çalışmalarına.",
     "cv_download_label": "CV’yi indir"
   },
@@ -284,7 +284,7 @@
   },
   "live_sites": {
     "eyebrow": "WEB PROJELERİ",
-    "title": "Yayındaki siteler.",
+    "title": "Yayındaki bazı siteler.",
     "intro": "Farklı sektörler için geliştirdiğim web sitelerinden bir seçki. Bağlantılardan doğrudan inceleyebilirsiniz.",
     "items": [
       {
