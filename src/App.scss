@@ -883,3 +883,76 @@ body[data-theme='dark'] {
   #resume .vertical-timeline-element-content { padding: 20px; }
   .career-intro { margin-top: 0; }
 }
+
+/* Local light-theme refresh. Every override stays inside the light theme. */
+body[data-theme='light'] {
+  --light-ink: #29352f;
+  --light-muted: #626d66;
+  --light-accent: #526b5c;
+  --light-line: rgba(54, 70, 59, .14);
+  background: #fafaf8;
+  color: var(--light-ink);
+
+  .language { background: #f1f2ed; border-bottom-color: var(--light-line); }
+  .number { color: #49564d; }
+  .cv-download { color: #465d4e; background: #fafbf8; border-color: #cbd2c8; }
+  .cv-download:hover { color: #293f30; background: #e6ebe2; border-color: #aab8a7; }
+  header { background: #fafaf8; }
+  header h1 { color: var(--light-ink); }
+  .header-icon { color: #758671; }
+  .title-styles { color: #68766b; }
+  .hero-links a { color: var(--light-accent); border-bottom-color: #a7b5a2; }
+  .hero-links a:hover { color: #293f30; }
+
+  #about { background: linear-gradient(to bottom, #fafaf8, #f4f3ef); }
+  .selected-work { background: linear-gradient(to bottom, #f4f3ef, #efeee9); }
+  .live-sites { background: linear-gradient(to bottom, #efeee9, #e9e8e2); }
+  #portfolio { background: linear-gradient(to bottom, #e9e8e2, #e2e1d9); }
+  #skills { background: linear-gradient(to bottom, #e2e1d9, #d9d8cf); }
+  #resume { background: linear-gradient(to bottom, #d9d8cf, #cecdc2); }
+
+  #about h1, .section-title { color: var(--light-ink) !important; }
+  #about .card { background: #fdfdfb; border-color: var(--light-line); box-shadow: 0 8px 28px rgba(44, 56, 46, .04); }
+  #about .card-header { background: #f0f2ec; border-bottom-color: var(--light-line); }
+  #about .card-body { color: #4c5850; }
+  #about .polaroid span { background: #fdfdfb; border: 1px solid var(--light-line); box-shadow: 0 8px 24px rgba(44, 56, 46, .07); }
+  .current-focus { border-color: var(--light-line); color: var(--light-accent); }
+
+  .work-heading h2, .work-card h3 { color: var(--light-ink); }
+  .work-eyebrow, .work-category, .work-number { color: #61785e; }
+  .work-intro, .work-description { color: var(--light-muted); }
+  .work-card { background: rgba(253, 253, 250, .9); border-color: var(--light-line); box-shadow: 0 4px 20px rgba(44, 56, 46, .025); }
+  .work-card:hover { border-color: #a8b5a3; }
+  .work-status { background: #eaf0e5; color: #506449; border-color: #d5dfcf; }
+  .work-stack li { color: #5b6c58; background: #edf0e8; }
+  .work-link, .work-link:hover { color: #47613f; }
+  .live-site { border-color: var(--light-line); }
+  .live-site-name { color: var(--light-ink); }
+  .live-site-domain { color: #63785d; }
+
+  #portfolio .foto > div { background: #f9f9f5; border-color: var(--light-line); box-shadow: 0 4px 18px rgba(44, 56, 46, .05); }
+  #portfolio .foto > div:hover { box-shadow: 0 8px 24px rgba(44, 56, 46, .08); }
+  #portfolio .project-title-settings { color: var(--light-ink); }
+  #portfolio .project-subtitle-settings { color: #62745d; }
+  #portfolio .project-desc-settings { color: #60695f; }
+  .skills-tile { background: #f1f2eb; border: 1px solid rgba(54, 70, 59, .1); }
+  .skill-icon { color: #53654f; }
+
+  .career-intro { color: #5f695d; }
+  #resume .vertical-timeline { --line-color: #aeb7a7; }
+  #resume .vertical-timeline-element-content { background: #f6f7f0; border: 1px solid var(--light-line); box-shadow: 0 4px 18px rgba(44, 56, 46, .05); }
+  #resume .vertical-timeline-element-content-arrow { border-right-color: #f6f7f0; }
+  #resume .vertical-timeline-element-title { color: var(--light-ink); }
+  #resume .vertical-timeline-element-subtitle { color: #607257; }
+  #resume .career-summary { color: #5f695d; }
+  #resume .main-badge { background: #63785b !important; color: #fff; }
+  #resume .experience-badge { background: #e5eadc !important; color: #536348; }
+  #resume .vertical-timeline-element-icon { background: #86977c !important; box-shadow: 0 0 0 4px #edf0e6; }
+  #resume .vertical-timeline-element-date { color: #55614e; }
+  #resume .career-current .vertical-timeline-element-content { outline-color: #96a889; }
+
+  footer { background: #cecdc2; color: #39483a; border-top: 1px solid var(--light-line); }
+  footer a, footer a:visited { color: #465940; }
+  footer a:hover, footer a:focus { color: #23391e; }
+  .cv-download:focus-visible, a:focus-visible, button:focus-visible, input:focus-visible { outline-color: #718b64; }
+}
